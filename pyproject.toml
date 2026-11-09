@@ -30,6 +30,7 @@ dev = ["pytest>=7.0"]
 
 [project.scripts]
 longshot-split = "longshot_split.cli:main"
+longshot-split-mcp = "longshot_split.mcp_server:serve"
 
 [tool.setuptools.packages.find]
 where = ["src"]
